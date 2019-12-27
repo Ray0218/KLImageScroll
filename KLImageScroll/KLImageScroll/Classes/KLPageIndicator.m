@@ -148,7 +148,7 @@ static NSString *cellIdentify = @"KLPageCollectionCell";
         
         [_rTitleLabel setContentCompressionResistancePriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
         [_rTitleLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
-        _rTitleLabel.textColor = [UIColor whiteColor];
+        _rTitleLabel.textColor = [UIColor blackColor];
         _rTitleLabel.font = [UIFont systemFontOfSize:10] ;
     }
     return _rTitleLabel ;

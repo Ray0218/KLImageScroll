@@ -237,7 +237,7 @@ static NSString *cellIdentify = @"KLImageScrollView";
 -(KLPageIndicator*)rPageIndicator {
     if (!_rPageIndicator) {
         _rPageIndicator = [[KLPageIndicator alloc]init] ;
-        _rPageIndicator.backgroundColor = [UIColor purpleColor];
+        _rPageIndicator.backgroundColor = [UIColor whiteColor];
         _rPageIndicator.userInteractionEnabled = NO ;
     }
     return _rPageIndicator ;
